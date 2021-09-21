@@ -1,0 +1,121 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+
+  :root{
+      --text-color:#000000;
+      --main-color:#83b735;
+  }
+
+  section{
+      padding: 50px 10px;
+  }
+
+  header{
+      position: fixed;
+      width: 100%;
+      top: 0;
+      right:0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 100px;
+      background: #e1dcd6;
+  }
+
+  .logo{
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-color);
+  }
+
+  .logo span{
+      color: var(--main-color);
+  }
+
+  .navbar{
+      position: relative;
+      display: flex;
+  }
+
+  .navbar a{
+      font-size: 1rem;
+      padding: 10px 20px;
+      font-weight: 500;
+      color: var(--text-color);
+  }
+
+  .navbar a:hover{
+      color: var(--main-color);
+  }
+
+  #menu-icon{
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
+  }
+
+  /*--Home Section--*/
+
+   .home{
+       width: 100%;
+       min-height: 100vh;
+       background-image: url(img/background.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+       background-attachment:center;
+       align-items: center;
+       display: flex;
+    }
+
+    .home-text{
+        padding: 70px;
+    }
+
+    .home-text h1{
+        font-size: 2.7rem;
+    }
+
+    .home-text p {
+        font-size: 0.938rem;
+        margin: 0.4rem 0 1.8rem;
+      }
+      .home-text span {
+        color: var(--main-color);
+      }
+      .btn {
+        padding: 10px 14px;
+        background: var(--main-color);
+        color: #fff;
+        border-radius: 0.3rem;
+        font-size: 14px;
+      }
+      .btn:hover {
+        background: #8fc53d;
+      }
+ 
+      /* items sections*/
+
+
+      .heading {
+        text-align: center;
+      }
+      .heading span {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--main-color);
+        text-transform: uppercase;
+      }
+
+      
